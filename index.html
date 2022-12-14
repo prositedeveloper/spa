@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale-1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Single Page Application</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+
+                    <div class="header__logo">
+                        Logo
+                    </div>  
+
+                    <nav class="nav" id="nav">
+                        <a href="#main" class="nav__link">Главня</a>
+                        <a href="#catalog" class="nav__link">Каталог</a>
+                        <a href="#about" class="nav__link">Обо мне</a>
+                        <a href="#contact" class="nav__link">Контакты</a>
+                    </nav>
+
+                    <div class="burger__menu" id="burger"></div>
+
+                </div>
+            </div>
+        </header>
+
+        <div id="app">
+            
+        </div>
+
+        <div class="footer">
+            <div class="footer__copyright">
+                Copyright 2022
+            </div>
+        </div>
+    </div>
+
+    <script src="js/route.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

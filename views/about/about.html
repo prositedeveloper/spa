@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale-1.0, user-scalable=no">
+    <style>
+        .information {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            margin: 80px 100px 200px 100px;
+        }
+
+        .information__title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 300px;
+
+            color: #6D6260;
+            font-weight: 700;
+            font-size: 50px;
+        }
+
+        .information__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .information__left {
+            width: 50%;
+           
+        }
+
+        .information__right {
+            width: 50%;
+        }
+
+        .information__name {
+            color: #000;
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1430px) {
+            .information__left, .information__right {
+                width: 100%;
+            }
+
+            .information__inner {
+                text-align: center;
+            }
+
+            .information__left {
+                margin-bottom: 50px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .information__photo img {
+                width: 450px;
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .information__photo img {
+                width: 370px;
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .information__photo img {
+                width: 300px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="information__title">
+        Обо мне
+    </div>
+
+    <div class="information">
+
+        <div class="information__inner">
+
+            <div class="information__left">
+                <div class="information__photo">
+                    <img src="http://dummyimage.com/600x250/" />
+                </div>  
+            </div>
+
+            <div class="information__right">
+                <div class="information__name">
+                    ProSiteDeveloper
+                </div>
+                <div class="information__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quam reprehenderit ullam modi placeat perferendis voluptatem, laborum similique blanditiis cupiditate vitae? Explicabo quod molestiae, cupiditate consequatur excepturi dolore vitae itaque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aut non a placeat, soluta sit dolor sint velit perferendis voluptatibus, officia, aspernatur laboriosam illo vero omnis quis optio doloribus! Molestias!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem hic deserunt, quaerat alias corrupti quam harum id est, ducimus dolorem rerum! Quasi adipisci laudantium tempora excepturi iure odit minima.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

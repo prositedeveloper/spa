@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale-1.0, user-scalable=no">
+    <style>
+        .contact {
+            margin: 200px 0;
+        }
+
+        .contact__title {
+            font-size: 50px;
+            font-weight: 700;
+            color: #6D6260;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact__inner {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .contact__left, .contact__right {
+            width: 50%;
+        }
+
+        .item {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        .item span {
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        @media (max-width: 600px) {
+
+            .contact__left, .contact__right {
+                width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="contact">
+        <div class="contact__title">
+            Контакты
+        </div>
+
+        <div class="contact__inner">
+
+            <div class="contact__left">
+                <div class="contact__name  item">
+                    <span>Имя</span> <br> ProSiteDeveloper
+                </div>
+                <div class="contact__phone item">
+                    <span>Номер</span> <br> 474674647676574
+                </div>
+                <div class="contact__learn item">
+                    <span>Место учебы</span> <br> Университет Гарвард
+                </div>
+            </div>
+
+            <div class="contact__right">
+                <div class="contact__address">
+                    <address>
+                        <div class="contact__country item">
+                            <span>Страна</span> <br>
+                            USA
+                        </div>
+                        <div class="contact__city item">
+                            <span>Город</span> <br>
+                            California
+                        </div>
+                        <div class="contact__street item">
+                            <span>Улица</span> <br>
+                            Street дом 31
+                        </div>
+                    </address>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

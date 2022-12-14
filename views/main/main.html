@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+
+        .center__column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            text-align: center;
+            color: #6D6260;
+            font-size: 50px;
+        }
+
+        .text {
+            text-align: center;
+            font-size: 25px
+        }
+
+        @media (max-width: 600px) {
+
+            .title {
+                font-size: 30px;
+            }
+
+            .text {
+                font-size: 15px;
+            }
+
+        }
+
+        @media (max-height: 736px) {
+
+            .title {
+                font-size: 30px;
+            }
+
+            .text {
+                font-size: 15px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="center__column">
+            <h1 class="title">Добро пожаловать на мой простенький сайт который написан на SPA(Single Page Application)</h1> 
+
+            <p class="text">
+                Этот сайт я написал для теста так что не судите строга. Хотел узнать как работает SPA написанное на JavaScript
+            </p>
+        </div>
+    </div>
+</body>
+</html>
